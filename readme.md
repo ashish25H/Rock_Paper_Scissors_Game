@@ -14,9 +14,9 @@ It will reset in 3 seconds
 
 
 # Technology 
-HTML
-CSS
-JacaScript
+- HTML
+- CSS
+- JacaScript
 
 # Design
 ## start image
