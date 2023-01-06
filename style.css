@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Josefin+Sans:wght@200&family=Montserrat:ital,wght@0,100;0,200;0,500;1,500&family=Mukta&family=Open+Sans:ital@1&family=Roboto:wght@100;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+.result{
+    color: #d14b4b;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.computerOutput{
+    text-align: center;
+}
+.computerOutput h4{
+    margin-top: 20px;
+}
+.userOutput{
+    text-align: center;
+}
+
+.userOutput h4{
+    margin-top: 20px;
+}
+.vs{
+    margin: 0 30px;
+}
+
+.paperImgC{
+    display: none;
+}
+.rockImgC{
+    display: none;
+}
+.scissersImgC{
+    display: none;
+}
+
+
+.paperImgU{
+    display: none;
+}
+.rockImUg{
+    display: none;
+}
+.scissorsImgU{
+    display: none;
+}
+
+.playGameBtn{
+    text-align: center;
+    margin-top: 60px;
+}
+.playGameBtn button{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+.playGameBtn button:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+    .vs{
+        margin: 0 10px;
+    }
+}
